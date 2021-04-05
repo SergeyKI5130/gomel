@@ -135,20 +135,17 @@ let homePage = new Swiper('.home-page__slider', {
 function sliders_bild_callback(params) { }
 
 let about = new Swiper('.about__slider', {
-	/*
 	effect: 'fade',
-	autoplay: {
-		delay: 3000,
-		disableOnInteraction: false,
+	fadeEffect: {
+	  crossFade: true
 	},
-	*/
 	slidesPerView: 1,
-	spaceBetween: 60,
+	spaceBetween: 80,
 	centeredSlides: true,
 	loop: true,
 	speed: 1200,
 	autoplay: {
-	  delay: 3500,
+	  delay: 2500,
 	  disableOnInteraction: false,
 	},
 	
