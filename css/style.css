@@ -2835,7 +2835,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .galeri-worcks .gallery-block__item img {
   z-index: 50;
   max-width: 100%;
-  background-repeat: 10px;
+  border-radius: 10px;
 }
 
 .galeri-worcks .gallery-block__desc {
@@ -3133,6 +3133,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     background-color: #3D3D3D;
     border: 3px solid #313131;
     border-bottom: 3px solid #F17D11;
+    cursor: pointer;
   }
 
   .prise-list__nav._active {
