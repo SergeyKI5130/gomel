@@ -79,17 +79,6 @@
   content: "\e908";
 }
 
-._icon-icon_s3-1:before,
-._icon-icon_s3-2:before,
-._icon-icon_s3-3:before,
-._icon-icon_s3-4:before {
-  color: #FFF;
-  font-size: 22px;
-  position: absolute;
-  top: 75%;
-  left: 4%;
-}
-
 * {
   padding: 0px;
   margin: 0px;
@@ -2312,6 +2301,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .icon-menu {
   display: none;
+  z-index: 1;
 }
 
 .footer {
@@ -3038,7 +3028,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   position: absolute;
   top: -70px;
   right: 0;
-  max-width: 608px;
+  max-width: 680px;
   max-height: 672px;
   overflow: hidden;
 }
@@ -3125,6 +3115,17 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .our-service__cards_prise ul li:last-child {
     margin: 0px 0px 0px 0px;
+  }
+
+  .our-service ._icon-icon_s3-1:before,
+  .our-service ._icon-icon_s3-2:before,
+  .our-service ._icon-icon_s3-3:before,
+  .our-service ._icon-icon_s3-4:before {
+    color: #FFF;
+    font-size: 22px;
+    position: absolute;
+    top: 75%;
+    left: 4%;
   }
 
   .prise-list__nav {
@@ -3573,10 +3574,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     width: 30px;
     height: 18px;
     cursor: pointer;
-    z-index: 5;
+    z-index: 120;
   }
 
   .icon-menu span {
+    z-index: 110;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -3697,6 +3699,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .our-service__detle {
     margin: 35px 0px 35px 0px;
     text-align: center;
+  }
+
+  .our-service ._icon-icon_s3-1:before,
+  .our-service ._icon-icon_s3-2:before,
+  .our-service ._icon-icon_s3-3:before,
+  .our-service ._icon-icon_s3-4:before {
+    display: none;
   }
 
   .dream-form__title {
